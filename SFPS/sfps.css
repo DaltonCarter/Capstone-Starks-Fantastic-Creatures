@@ -1,0 +1,250 @@
+header{
+    box-shadow: 0 0 15px gold;
+    position:relative;z-index:10;
+}
+
+#site-name {
+    font-family: "Neverwinter", sans-serif;
+    font-size: 2vmax;
+}
+
+#site-name:hover {
+    cursor: auto;
+    border-radius: 40%;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 15px orangered;
+    translate: 0 -5px;
+    transition: 1s;
+    box-shadow: 0 0 15px orangered;
+  }
+
+a{
+    color:  #6B0504;
+}
+
+
+
+#header {
+    
+  height: 100%;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: red;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Morpheus", sans-serif;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 0.9;
+    font-size: 30px;
+    justify-content: space-evenly;
+  }
+  
+  #dragon-icon {
+    margin-left: 20px;
+    max-height: 100%;
+    height: 8vh;
+    border-radius: 50%;
+  }
+  
+  #dragon-icon:hover {
+    box-shadow: 0 0 15px gold;
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+  
+  #wolf-icon {
+    margin-left: 20px;
+    max-height: 100%;
+    height: 8vh;
+    border-radius: 50%;
+  }
+  
+  #wolf-icon:hover {
+    box-shadow: 0 0 15px blue;
+    transform: rotate(-360deg);
+    transition: 2s;
+  }
+
+  .nydus:hover {
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 15px orangered;
+    translate: 0 -5px;
+    transition: 1s;
+    box-shadow: 0 0 15px orangered;
+  }
+
+  ul{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+  }
+
+  li{
+
+    font-size: 1vw;
+  }
+
+  .cart-total {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #00A6A6;
+    font-size: 20px;
+    box-shadow: 0 -3px 20px 5px red;
+  }
+  
+  .clear-btn:hover {
+    background-color: #454545;
+    box-shadow: 0 0 15px #F08700;
+  }
+  
+  .check-btn:hover {
+    background-color: #78BC61;
+    box-shadow: 0 0 15px #F08700;
+  }
+  
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(#19647E, #DD614A);
+    min-height: calc(100vh - 175px);
+  }
+  
+  button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #F49F0A;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: "Morpheus", sans-serif;
+  }
+  
+  input {
+    font-family: "Morpheus", sans-serif;
+    width: 120px;
+  }
+  
+  .product-card {
+    height: 800px;
+    width: 280px;
+    margin: 10px 0;
+    color: white;
+    background-color: #004643;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+  }
+  
+  .product-pic {
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .cart-btn:hover {
+    background-color: #9C0D38;
+    color: white;
+    box-shadow: 0 0 15px #EAD94C;
+  }
+  
+  .read-btn:hover {
+    background-color: #14248A;
+    color: white;
+    box-shadow: 0 0 15px #E24E1B;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 15px #da2928;
+  }
+
+  .email-sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+  }
+  
+  .excerpt {
+    right: -250px;
+    opacity: 0;
+    transition: 1s
+  }
+  
+  h2 {
+    margin: 30px;
+  }
+  
+  .opened {
+   
+    background-color: black;
+    border-radius: 10px;
+    z-index: 1;
+    right: 0px;
+    opacity: 1;
+  }
+  button:hover {
+    transform: translatey(-3px);
+  }
+  
+  button:active {
+    transform: translatey(-1px);
+  }
+  
+  #drag-book:hover {
+    transform: scale(2, 2)
+      translatex(50px);
+    transition: 3s;
+  
+  
+  }
+  
+  #otter-book:hover {
+    transform: scale(2, 2);
+      transition: 3s;
+  }
+  
+  #dire-chow:hover {
+    transform: scale(2, 2);
+      transition: 3s;
+  }
+  
+  #drag-treats:hover {
+    transform: scale(2.5, 2.5)
+      translatex(-50px);
+      transition: 3s;
+  }
+
+footer {
+    box-shadow: 0 0 15px gold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    background-color: black;
+    color: red;
+    font-size: 1vw;
+  } 
