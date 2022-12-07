@@ -13,11 +13,11 @@
  >       (The Source page only utilizes HTML 5, CSS, and JavaScript...for now)
 
 ## Challenges:
-   > This project mercifully went relatively smoothly, no major mind shattering bugs or problems. The 2 Challenges that I did encounter were more...annnoying than problematic, and one of them does not have a satisfactory reason for why it occured.
-    
->         1. I spent over 2 hours reading up on, and playing with CSS in order to achieve a workable reactivity. It was tedious, mildly annoying, and ultimately only produced something that was good enough to be moving on with. I will definately have to study and experiment further in order to reliably get something better than that.
+   > This project mercifully went relatively smoothly, no major mind shattering bugs or problems. The 2 Challenges that I did encounter were more...annnoying than problematic, and one of them does not have a satisfactory reason for why it occured. 
 
->        2. When I was copying the code for the Source Page, from where it was stored, I ran into a weird issue where the HTML would not run the <script> element I had in place. No errors were displayed either in the inspection console or locally, I had the element in the same place as the ones in the Home and About pages, I double checked syntax and it checked out, I double, triple, AND quadruple checked the file path and that also checked out. Google search turned up nothing helpful, and ultimately I wound up Copying and pasting HTML and JS files, that I knew worked, into the directory I was using for the source page, and those worked, even after they were renamed, the file paths changed to match their new directory, and the contents filled with the imported code. I have no explanation for this, but I got it working all the same.
+  1. I spent over 2 hours reading up on, and playing with CSS in order to achieve a workable reactivity. It was tedious, mildly annoying, and ultimately only produced something that was good enough to be moving on with. I will definately have to study and experiment further in order to reliably get something better than that.
+
+  2. When I was copying the code for the Source Page, from where it was stored, I ran into a weird issue where the HTML would not run the script element I had in place. No errors were displayed either in the inspection console or locally, I had the element in the same place as the ones in the Home and About pages, I double checked syntax and it checked out, I double, triple, AND quadruple checked the file path and that also checked out. Google search turned up nothing helpful, and ultimately I wound up Copying and pasting HTML and JS files, that I knew worked, into the directory I was using for the source page, and those worked, even after they were renamed, the file paths changed to match their new directory, and the contents filled with the imported code. I have no explanation for this, but I got it working all the same.
 
 
 ## Overview:
