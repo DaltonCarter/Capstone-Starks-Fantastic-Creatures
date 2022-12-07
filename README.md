@@ -6,23 +6,23 @@
 <br>
 
 ## Warning:
-    Due to how Google Drive handles traffic with pictures there is a chance that the pictures on the Source page will fail to load with error 403. Only solution is to close, and wait for a few minutes and reload the page. Once I figure out a more permanent soulution I will fix this.
+>    Due to how Google Drive handles traffic with pictures there is a chance that the pictures on the Source page will fail to load with error 403. Only solution is to close, and wait for a few minutes and reload the page. Once I figure out a more permanent soulution I will fix this.
 
 ## Technology Used:
-    This project was made using: HTML 5, CSS, JavaScript, Axios, Express, And CORS.
-        (The Source page only utilizes HTML 5, CSS, and JavaScript...for now)
+>    This project was made using: HTML 5, CSS, JavaScript, Axios, Express, And CORS.
+ >       (The Source page only utilizes HTML 5, CSS, and JavaScript...for now)
 
 ## Challenges:
-    This project mercifully went relatively smoothly, no major mind shattering bugs or problems. The 2 Challenges that I did encounter were more...annnoying than problematic, and one of them does not have a satisfactory reason for why it occured.
+   > This project mercifully went relatively smoothly, no major mind shattering bugs or problems. The 2 Challenges that I did encounter were more...annnoying than problematic, and one of them does not have a satisfactory reason for why it occured.
     
-         1. I spent over 2 hours reading up on, and playing with CSS in order to achieve a workable reactivity. It was tedious, mildly annoying, and ultimately only produced something that was good enough to be moving on with. I will definately have to study and experiment further in order to reliably get something better than that.
+>         1. I spent over 2 hours reading up on, and playing with CSS in order to achieve a workable reactivity. It was tedious, mildly annoying, and ultimately only produced something that was good enough to be moving on with. I will definately have to study and experiment further in order to reliably get something better than that.
 
-        2. When I was copying the code for the Source Page, from where it was stored, I ran into a weird issue where the HTML would not run the <script> element I had in place. No errors were displayed either in the inspection console or locally, I had the element in the same place as the ones in the Home and About pages, I double checked syntax and it checked out, I double, triple, AND quadruple checked the file path and that also checked out. Google search turned up nothing helpful, and ultimately I wound up Copying and pasting HTML and JS files, that I knew worked, into the directory I was using for the source page, and those worked, even after they were renamed, the file paths changed to match their new directory, and the contents filled with the imported code. I have no explanation for this, but I got it working all the same.
+>        2. When I was copying the code for the Source Page, from where it was stored, I ran into a weird issue where the HTML would not run the <script> element I had in place. No errors were displayed either in the inspection console or locally, I had the element in the same place as the ones in the Home and About pages, I double checked syntax and it checked out, I double, triple, AND quadruple checked the file path and that also checked out. Google search turned up nothing helpful, and ultimately I wound up Copying and pasting HTML and JS files, that I knew worked, into the directory I was using for the source page, and those worked, even after they were renamed, the file paths changed to match their new directory, and the contents filled with the imported code. I have no explanation for this, but I got it working all the same.
 
 
 ## Overview:
-    Two of the three pages of this site were made for my Foundations capstone or final.
-The following is true for both the Home page, and the About Page, the Source page will be listed sepperately;
+   > Two of the three pages of this site were made for my Foundations capstone or final.
+>The following is true for both the Home page, and the About Page, the Source page will be listed sepperately;
   * The Wolf icon will animate when hovered over.
   * When Hovered over the site name and nav bar items will also animate.
   * Clicking the Site name will return you to the home page
@@ -87,7 +87,8 @@ About Page Image:
 <img src="Starks-Fantastic-Creatures-about-page.png" alt="About Page View" width="200"/>
 
  ## About the Source page:
-    This page was originally the capstone project for my Coding Basics course in June/July of 2022. It is an interactive mock-up of an e-commerce site under the same fictional "Starks' Fantastic" brand. It serves as the inspiration for the theme, and approach, to my Foundations Capstone, so I wanted to add it on for flavor, and curiosity. It has been altered a bit from the original in the following ways;
+
+> This page was originally the capstone project for my Coding Basics course in June/July of 2022. It is an interactive mock-up of an e-commerce site under the same fictional "Starks' Fantastic" brand. It serves as the inspiration for the theme, and approach, to my Foundations Capstone, so I wanted to add it on for flavor, and curiosity. It has been altered a bit from the original in the following ways;
 
   * The Nav Bar is now fully functional, originally it was only a few placeholders that were meant to simulate a nav bar.
   * Clicking the Store Title will return you to the Starks Fantastic Creatures Home Page, originally it would perform some CSS animation.
